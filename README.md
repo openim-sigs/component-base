@@ -4,7 +4,7 @@
 
 # OpenIM Component-Base
 
-Implement OpenIM RPC Proposal 32: https://github.com/OpenIMSDK/community/edit/main/RFC/0006-openim-component-base.md
+Implement OpenIM RPC Proposal: https://github.com/OpenIMSDK/community/edit/main/RFC/0006-openim-component-base.md, OepnIM Server issue: https://github.com/OpenIMSDK/Open-IM-Server/issues/955
 
 Welcome to the OpenIM Component-Base repository. This repository hosts a collection of shared tools and utilities dedicated to strengthening the modular and scalable nature of the OpenIM project ecosystem.
 
