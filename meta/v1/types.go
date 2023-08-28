@@ -7,7 +7,7 @@ package v1
 import (
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/json"
+	"github.com/openim-sigs/component-base/json"
 	"gorm.io/gorm"
 )
 

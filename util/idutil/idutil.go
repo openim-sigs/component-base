@@ -10,8 +10,8 @@ import (
 	"github.com/sony/sonyflake"
 	hashids "github.com/speps/go-hashids"
 
-	"github.com/openim-sigs/component-base/pkg/util/iputil"
-	"github.com/openim-sigs/component-base/pkg/util/stringutil"
+	"github.com/openim-sigs/component-base/util/iputil"
+	"github.com/openim-sigs/component-base/util/stringutil"
 )
 
 // Defiens alphabet.

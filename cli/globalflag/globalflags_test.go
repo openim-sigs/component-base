@@ -13,7 +13,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	cliflag "github.com/openim-sigs/component-base/pkg/cli/flag"
+	cliflag "github.com/openim-sigs/component-base/cli/flag"
 )
 
 func TestAddGlobalFlags(t *testing.T) {

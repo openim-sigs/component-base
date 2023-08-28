@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/clock"
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
+	"github.com/openim-sigs/component-base/util/clock"
+	"github.com/openim-sigs/component-base/util/runtime"
 )
 
 func TestUntil(t *testing.T) {

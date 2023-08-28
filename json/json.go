@@ -9,18 +9,18 @@ package json
 
 import "encoding/json"
 
-// RawMessage is exported by component-base/pkg/json package.
+// RawMessage is exported by component-base/json package.
 type RawMessage = json.RawMessage
 
 var (
-	// Marshal is exported by component-base/pkg/json package.
+	// Marshal is exported by component-base/json package.
 	Marshal = json.Marshal
-	// Unmarshal is exported by component-base/pkg/json package.
+	// Unmarshal is exported by component-base/json package.
 	Unmarshal = json.Unmarshal
-	// MarshalIndent is exported by component-base/pkg/json package.
+	// MarshalIndent is exported by component-base/json package.
 	MarshalIndent = json.MarshalIndent
-	// NewDecoder is exported by component-base/pkg/json package.
+	// NewDecoder is exported by component-base/json package.
 	NewDecoder = json.NewDecoder
-	// NewEncoder is exported by component-base/pkg/json package.
+	// NewEncoder is exported by component-base/json package.
 	NewEncoder = json.NewEncoder
 )
