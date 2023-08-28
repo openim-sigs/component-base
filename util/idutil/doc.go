@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package idutil is a tool set used to generate multiple id string.
-package idutil // import "github.com/marmotedu/component-base/pkg/util/idutil"
+package idutil // import "github.com/openim-sigs/component-base/pkg/util/idutil"

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/marmotedu/component-base/pkg/validation/field"
+	"github.com/openim-sigs/component-base/pkg/validation/field"
 )
 
 const (

@@ -13,7 +13,7 @@ require (
 	github.com/gosuri/uitable v0.0.4
 	github.com/h2non/filetype v1.1.3
 	github.com/json-iterator/go v1.1.12
-	github.com/marmotedu/component-base v1.6.2
+	github.com/openim-sigs/component-base v1.6.2
 	github.com/marmotedu/errors v1.0.2
 	github.com/marmotedu/log v0.0.1
 	github.com/moby/term v0.5.0

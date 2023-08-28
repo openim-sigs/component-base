@@ -12,7 +12,7 @@ import (
 
 	utilerrors "github.com/marmotedu/errors"
 
-	"github.com/marmotedu/component-base/pkg/util/sets"
+	"github.com/openim-sigs/component-base/pkg/util/sets"
 )
 
 // Error is an implementation of the 'error' interface, which represents a

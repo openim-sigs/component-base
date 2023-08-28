@@ -14,7 +14,7 @@ import (
 	"github.com/go-playground/validator/v10"
 	"github.com/go-playground/validator/v10/translations/en"
 
-	"github.com/marmotedu/component-base/pkg/validation/field"
+	"github.com/openim-sigs/component-base/pkg/validation/field"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/marmotedu/component-base/pkg/selection"
-	"github.com/marmotedu/component-base/pkg/util/sets"
+	"github.com/openim-sigs/component-base/pkg/selection"
+	"github.com/openim-sigs/component-base/pkg/util/sets"
 )
 
 func TestSelectorParse(t *testing.T) {
