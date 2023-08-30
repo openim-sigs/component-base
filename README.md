@@ -6,21 +6,32 @@ Welcome to the OpenIM Component-Base repository. This repository hosts a collect
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Motivation](#motivation)
-3. [Getting Started](#getting-started)
-4. [Components](#components)
-5. [Contribution](#contribution)
-6. [Prior Art](#prior-art)
-7. [License](#license)
+- [OpenIM Component-Base](#openim-component-base)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Motivation](#motivation)
+  - [Getting Started](#getting-started)
+  - [Components](#components)
+  - [Contribution](#contribution)
+  - [Prior Art](#prior-art)
+  - [License](#license)
 
 ## Introduction
 
 OpenIM strives to offer a potent, streamlined, and expansive instant messaging solution. To ensure a cohesive yet modular architecture, common components are housed in this repository. This structure not only delineates clear boundaries but also facilitates the reuse of components across diverse OpenIM projects.
 
+## Purpose
+
+This library is a shared dependency for servers and clients to work with OpenIM API infrastructure without direct type dependencies. Its first consumers are github.com/openim-sigs/gh-bot.
+
 ## Motivation
 
 In our journey to optimize and expand the OpenIM project, we discerned overlapping tools and utilities across repositories like chat, core, and server. To streamline dependencies and enhance reusability, the `component-base` repository was conceived, inspired by best practices from projects like Kubernetes.
+
++ https://github.com/kubernetes/apimachinery
++ https://github.com/kubernetes/component-base
+
 
 ## Getting Started
 
