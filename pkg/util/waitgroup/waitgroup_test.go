@@ -1,3 +1,7 @@
+// Copyright © 2023 OpenIM-Sigs open source community. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
+
 // Package waitgroup test cases reference golang sync.WaitGroup https://golang.org/src/sync/waitgroup_test.go.
 package waitgroup
 

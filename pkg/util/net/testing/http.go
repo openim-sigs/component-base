@@ -1,3 +1,7 @@
+// Copyright © 2023 OpenIM-Sigs open source community. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
+
 // Package nettesting contains utilities for testing networking functionality.
 // Don't use these utilities in production code. They have not been security
 // reviewed.

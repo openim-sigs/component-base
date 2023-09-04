@@ -1,3 +1,7 @@
+// Copyright © 2023 OpenIM-Sigs open source community. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
+
 package sets
 
 // Int64 is a set of int64s, implemented via map[int64]struct{} for minimal memory consumption.
