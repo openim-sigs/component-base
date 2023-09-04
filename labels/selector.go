@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/marmotedu/component-base/pkg/selection"
-	"github.com/marmotedu/component-base/pkg/util/sets"
-	"github.com/marmotedu/component-base/pkg/validation"
+	"github.com/openim-sigs/component-base/selection"
+	"github.com/openim-sigs/component-base/util/sets"
+	"github.com/openim-sigs/component-base/validation"
 )
 
 // Requirements is AND of all requirements.

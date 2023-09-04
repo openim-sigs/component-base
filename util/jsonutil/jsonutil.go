@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/marmotedu/component-base/pkg/json"
+	"github.com/openim-sigs/component-base/json"
 )
 
 type JSONRawMessage []byte

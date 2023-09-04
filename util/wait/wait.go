@@ -1,18 +1,6 @@
-/*
-Copyright 2014 The Kubernetes Authors.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-*/
+// Copyright © 2023 OpenIM-Sigs open source community. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
 
 package wait
 
@@ -24,14 +12,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/marmotedu/component-base/pkg/util/clock"
-	"github.com/marmotedu/component-base/pkg/util/runtime"
+	"github.com/openim-sigs/component-base/util/clock"
+	"github.com/openim-sigs/component-base/util/runtime"
 )
 
 // For any test of the style:
-//   ...
-//   <- time.After(timeout):
-//      t.Errorf("Timed out")
+//
+//	...
+//	<- time.After(timeout):
+//	   t.Errorf("Timed out")
+//
 // The value for timeout should effectively be "forever." Obviously we don't want our tests to truly lock up forever,
 // but 30s
 // is long enough that it is effectively forever for the things that can slow down a run on a heavily contended machine
@@ -530,7 +520,7 @@ type WaitFunc func(done <-chan struct{}) <-chan struct{}
 
 // WaitFor continually checks 'fn' as driven by 'wait'.
 //
-// WaitFor gets a channel from 'wait()'', and then invokes 'fn' once for every value
+// WaitFor gets a channel from 'wait()”, and then invokes 'fn' once for every value
 // placed on the channel and once more when the channel is closed. If the channel is closed
 // and 'fn' returns false without error, WaitFor returns ErrWaitTimeout.
 //

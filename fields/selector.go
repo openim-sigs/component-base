@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/marmotedu/component-base/pkg/selection"
+	"github.com/openim-sigs/component-base/selection"
 )
 
 // Selector represents a field selector.
