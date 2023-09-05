@@ -8,8 +8,7 @@ go-zero is a web and rpc framework with lots of builtin engineering practices. I
 
 <div align=center>
 
-[![Go](https://github.com/openim-sigs/component-base/workflows/Go/badge.svg?branch=master)](https://github.com/zeromicro/openim-sigs/component-base)
-[![codecov](https://codecov.io/gh/openim-sigs/component-base/branch/master/graph/badge.svg)](https://codecov.io/gh/zeromicro/go-zero)
+[![codecov](https://codecov.io/gh/openim-sigs/component-base/branch/master/graph/badge.svg)](https://codecov.io/gh/openim-sigs/component-base)
 [![Go Report Card](https://goreportcard.com/badge/github.com/openim-sigs/component-base)](https://goreportcard.com/report/github.com/openim-sigs/component-base)
 [![Release](https://img.shields.io/github/v/release/openim-sigs/component-base.svg?style=flat-square)](https://github.com/openim-sigs/component-base)
 [![Go Reference](https://pkg.go.dev/badge/github.com/openim-sigs/component-base.svg)](https://pkg.go.dev/github.com/openim-sigs/component-base)
