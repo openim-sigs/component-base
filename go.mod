@@ -1,4 +1,4 @@
-module openim.cc/component-base
+module sigs.openim.cc/component-base
 
 go 1.20.0
 
