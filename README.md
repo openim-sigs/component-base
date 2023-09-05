@@ -1,5 +1,25 @@
 # OpenIM Component-Base
 
+<p align="center">
+<img align="center" width="150px" src="https://raw.githubusercontent.com/zeromicro/zero-doc/main/doc/images/go-zero.png">
+</p>
+
+go-zero is a web and rpc framework with lots of builtin engineering practices. It’s born to ensure the stability of the busy services with resilience design and has been serving sites with tens of millions of users for years.
+
+<div align=center>
+
+[![Go](https://github.com/openim-sigs/component-base/workflows/Go/badge.svg?branch=master)](https://github.com/zeromicro/openim-sigs/component-base)
+[![codecov](https://codecov.io/gh/openim-sigs/component-base/branch/master/graph/badge.svg)](https://codecov.io/gh/zeromicro/go-zero)
+[![Go Report Card](https://goreportcard.com/badge/github.com/openim-sigs/component-base)](https://goreportcard.com/report/github.com/openim-sigs/component-base)
+[![Release](https://img.shields.io/github/v/release/openim-sigs/component-base.svg?style=flat-square)](https://github.com/openim-sigs/component-base)
+[![Go Reference](https://pkg.go.dev/badge/github.com/openim-sigs/component-base.svg)](https://pkg.go.dev/github.com/openim-sigs/component-base)
+[![Awesome Go](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/avelino/awesome-go)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+
+
 Implement OpenIM RPC Proposal: https://github.com/OpenIMSDK/community/edit/main/RFC/0006-openim-component-base.md, OepnIM Server issue: https://github.com/OpenIMSDK/Open-IM-Server/issues/955
 
 Welcome to the OpenIM Component-Base repository. This repository hosts a collection of shared tools and utilities dedicated to strengthening the modular and scalable nature of the OpenIM project ecosystem.
