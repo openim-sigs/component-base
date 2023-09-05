@@ -11,9 +11,9 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/util/net"
-	utilruntime "github.com/openim-sigs/component-base/pkg/util/runtime"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/util/net"
+	utilruntime "openim.cc/component-base/pkg/util/runtime"
 )
 
 // Decoder allows StreamWatcher to watch any stream for which a Decoder can be written.

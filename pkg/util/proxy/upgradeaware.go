@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/api/errors"
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
-	utilnet "github.com/openim-sigs/component-base/pkg/util/net"
-	utilruntime "github.com/openim-sigs/component-base/pkg/util/runtime"
+	"openim.cc/component-base/pkg/api/errors"
+	"openim.cc/component-base/pkg/util/httpstream"
+	utilnet "openim.cc/component-base/pkg/util/net"
+	utilruntime "openim.cc/component-base/pkg/util/runtime"
 
 	"github.com/mxk/go-flowrate/flowrate"
 	"k8s.io/klog/v2"

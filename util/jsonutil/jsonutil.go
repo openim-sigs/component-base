@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openim-sigs/component-base/json"
+	"openim.cc/component-base/json"
 )
 
 type JSONRawMessage []byte

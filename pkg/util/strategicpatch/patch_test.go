@@ -13,12 +13,12 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/util/dump"
-	"github.com/openim-sigs/component-base/pkg/util/json"
-	"github.com/openim-sigs/component-base/pkg/util/mergepatch"
-	"github.com/openim-sigs/component-base/pkg/util/sets"
-	sptest "github.com/openim-sigs/component-base/pkg/util/strategicpatch/testing"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/util/dump"
+	"openim.cc/component-base/pkg/util/json"
+	"openim.cc/component-base/pkg/util/mergepatch"
+	"openim.cc/component-base/pkg/util/sets"
+	sptest "openim.cc/component-base/pkg/util/strategicpatch/testing"
 )
 
 var (

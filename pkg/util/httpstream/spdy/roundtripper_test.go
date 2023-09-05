@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
-	utilnettesting "github.com/openim-sigs/component-base/pkg/util/net/testing"
+	"openim.cc/component-base/pkg/util/httpstream"
+	utilnettesting "openim.cc/component-base/pkg/util/net/testing"
 )
 
 type serverHandlerConfig struct {

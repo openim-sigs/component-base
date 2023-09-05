@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	utilnet "github.com/openim-sigs/component-base/pkg/util/net"
+	utilnet "openim.cc/component-base/pkg/util/net"
 )
 
 func TestDialURL(t *testing.T) {

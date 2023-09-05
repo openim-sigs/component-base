@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/openim-sigs/component-base/validation/field"
+	"openim.cc/component-base/validation/field"
 )
 
 const (

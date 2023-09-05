@@ -8,8 +8,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/util/mergepatch"
 	openapi "k8s.io/kube-openapi/pkg/util/proto"
+	"openim.cc/component-base/pkg/util/mergepatch"
 )
 
 const (

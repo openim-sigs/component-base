@@ -10,9 +10,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/util/json"
-	"github.com/openim-sigs/component-base/pkg/util/mergepatch"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/util/json"
+	"openim.cc/component-base/pkg/util/mergepatch"
 )
 
 // An alternate implementation of JSON Merge Patch

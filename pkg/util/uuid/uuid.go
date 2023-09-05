@@ -7,7 +7,7 @@ package uuid
 import (
 	"github.com/google/uuid"
 
-	"github.com/openim-sigs/component-base/pkg/types"
+	"openim.cc/component-base/pkg/types"
 )
 
 func NewUUID() types.UID {

@@ -7,9 +7,9 @@ package internal
 import (
 	"fmt"
 
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/api/meta"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime"
 )
 
 type lastAppliedUpdater struct {

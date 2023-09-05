@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/util/validation/field"
+	"openim.cc/component-base/pkg/util/validation/field"
 )
 
 // Labels allows you to present labels independently from their storage.

@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package errors implements various utility functions and types around errors.
-package errors // import "github.com/openim-sigs/component-base/pkg/util/errors"
+package errors // import "openim.cc/component-base/pkg/util/errors"

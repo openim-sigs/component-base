@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
 	"k8s.io/klog/v2"
+	"openim.cc/component-base/pkg/api/meta"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
 	"sigs.k8s.io/structured-merge-diff/v4/merge"
 )
 

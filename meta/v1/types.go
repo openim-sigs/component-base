@@ -7,8 +7,8 @@ package v1
 import (
 	"time"
 
-	"github.com/openim-sigs/component-base/json"
 	"gorm.io/gorm"
+	"openim.cc/component-base/json"
 )
 
 // Extend defines a new type used to store extended fields.

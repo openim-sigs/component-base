@@ -7,10 +7,10 @@ package test
 import (
 	"testing"
 
-	apitesting "github.com/openim-sigs/component-base/pkg/api/apitesting"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/apis/testapigroup"
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	apitesting "openim.cc/component-base/pkg/api/apitesting"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/apis/testapigroup"
+	"openim.cc/component-base/pkg/runtime"
 )
 
 func TestDecodeList(t *testing.T) {

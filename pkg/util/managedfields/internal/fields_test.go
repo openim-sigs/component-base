@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
 
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 )

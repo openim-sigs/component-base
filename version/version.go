@@ -12,7 +12,7 @@ import (
 
 	"github.com/gosuri/uitable"
 
-	"github.com/openim-sigs/component-base/json"
+	"openim.cc/component-base/json"
 )
 
 var (

@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/selection"
-	"github.com/openim-sigs/component-base/pkg/util/sets"
-	"github.com/openim-sigs/component-base/pkg/util/validation"
-	"github.com/openim-sigs/component-base/pkg/util/validation/field"
 	"k8s.io/klog/v2"
 	stringslices "k8s.io/utils/strings/slices"
+	"openim.cc/component-base/pkg/selection"
+	"openim.cc/component-base/pkg/util/sets"
+	"openim.cc/component-base/pkg/util/validation"
+	"openim.cc/component-base/pkg/util/validation/field"
 )
 
 var (

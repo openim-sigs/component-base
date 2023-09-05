@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/util/validation/field"
 	netutils "k8s.io/utils/net"
+	"openim.cc/component-base/pkg/util/validation/field"
 )
 
 const qnameCharFmt string = "[A-Za-z0-9]"

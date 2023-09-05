@@ -12,4 +12,4 @@
 //
 // In the future, we will probably move these categories of objects into
 // separate packages.
-package v1 // import "github.com/openim-sigs/component-base/meta/v1"
+package v1 // import "openim.cc/component-base/meta/v1"

@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"net/url"
 
-	utilnet "github.com/openim-sigs/component-base/pkg/util/net"
 	"k8s.io/apimachinery/third_party/forked/golang/netutil"
 	"k8s.io/klog/v2"
+	utilnet "openim.cc/component-base/pkg/util/net"
 )
 
 // dialURL will dial the specified URL using the underlying dialer held by the passed

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	utilversion "github.com/openim-sigs/component-base/pkg/util/version"
+	utilversion "openim.cc/component-base/pkg/util/version"
 )
 
 var dynamicGitVersion atomic.Value

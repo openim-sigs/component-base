@@ -7,7 +7,7 @@ package net
 import (
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/util/sets"
+	"openim.cc/component-base/pkg/util/sets"
 )
 
 var validSchemes = sets.NewString("http", "https", "")

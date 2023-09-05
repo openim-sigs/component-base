@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	v1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/managedfieldstest"
+	v1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/util/managedfields/managedfieldstest"
 
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
+	"openim.cc/component-base/pkg/api/meta"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
 	"sigs.k8s.io/yaml"
 )
 

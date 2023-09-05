@@ -4,4 +4,4 @@
 
 // Package waitgroup implements SafeWaitGroup wrap of sync.WaitGroup.
 // Add with positive delta when waiting will fail, to prevent sync.WaitGroup race issue.
-package waitgroup // import "github.com/openim-sigs/component-base/pkg/util/waitgroup"
+package waitgroup // import "openim.cc/component-base/pkg/util/waitgroup"

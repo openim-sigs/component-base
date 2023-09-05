@@ -7,9 +7,9 @@ package internal
 import (
 	"fmt"
 
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	apimachineryvalidation "github.com/openim-sigs/component-base/pkg/api/validation"
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/api/meta"
+	apimachineryvalidation "openim.cc/component-base/pkg/api/validation"
+	"openim.cc/component-base/pkg/runtime"
 )
 
 // LastAppliedConfigAnnotation is the annotation used to store the previous

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
+	"openim.cc/component-base/pkg/util/runtime"
 )
 
 // For any test of the style:

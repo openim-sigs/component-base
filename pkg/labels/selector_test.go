@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/openim-sigs/component-base/pkg/selection"
-	"github.com/openim-sigs/component-base/pkg/util/sets"
-	"github.com/openim-sigs/component-base/pkg/util/validation/field"
+	"openim.cc/component-base/pkg/selection"
+	"openim.cc/component-base/pkg/util/sets"
+	"openim.cc/component-base/pkg/util/validation/field"
 )
 
 var (

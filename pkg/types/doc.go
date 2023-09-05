@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package types implements various generic types used throughout kubernetes.
-package types // import "github.com/openim-sigs/component-base/pkg/types"
+package types // import "openim.cc/component-base/pkg/types"

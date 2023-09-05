@@ -7,9 +7,9 @@ package internal
 import (
 	"fmt"
 
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
 )
 
 type buildManagerInfoManager struct {

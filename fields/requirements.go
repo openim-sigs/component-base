@@ -4,7 +4,7 @@
 
 package fields
 
-import "github.com/openim-sigs/component-base/selection"
+import "openim.cc/component-base/selection"
 
 // Requirements is AND of all requirements.
 type Requirements []Requirement

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openim-sigs/component-base/pkg/util/sets"
+	"openim.cc/component-base/pkg/util/sets"
 )
 
 func TestSet(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"unicode"
 
-	jsonutil "github.com/openim-sigs/component-base/pkg/util/json"
+	jsonutil "openim.cc/component-base/pkg/util/json"
 
 	"sigs.k8s.io/yaml"
 )

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/api/meta"
+	"openim.cc/component-base/pkg/runtime"
 )
 
 type skipNonAppliedManager struct {

@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
+	"openim.cc/component-base/pkg/util/runtime"
 )
 
 // The WebSocket subprotocol "binary.k8s.io" will only send messages to the

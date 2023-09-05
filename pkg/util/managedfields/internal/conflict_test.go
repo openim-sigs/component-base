@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openim-sigs/component-base/pkg/api/errors"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
+	"openim.cc/component-base/pkg/api/errors"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 	"sigs.k8s.io/structured-merge-diff/v4/merge"
 )

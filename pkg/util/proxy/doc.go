@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package proxy provides transport and upgrade support for proxies.
-package proxy // import "github.com/openim-sigs/component-base/pkg/util/proxy"
+package proxy // import "openim.cc/component-base/pkg/util/proxy"

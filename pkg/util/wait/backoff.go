@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
 	"k8s.io/utils/clock"
+	"openim.cc/component-base/pkg/util/runtime"
 )
 
 // Backoff holds parameters applied to a Backoff function.

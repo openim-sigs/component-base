@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openim-sigs/component-base/pkg/util/validation/field"
+	"openim.cc/component-base/pkg/util/validation/field"
 )
 
 func TestIsDNS1123Label(t *testing.T) {

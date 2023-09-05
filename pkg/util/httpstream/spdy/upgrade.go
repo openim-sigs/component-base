@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
+	"openim.cc/component-base/pkg/util/httpstream"
+	"openim.cc/component-base/pkg/util/runtime"
 )
 
 const HeaderSpdy31 = "SPDY/3.1"

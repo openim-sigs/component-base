@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/util/wait"
 	"github.com/stretchr/testify/assert"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/util/wait"
 )
 
 type myType struct {

@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/moby/spdystream"
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
+	"openim.cc/component-base/pkg/util/httpstream"
 )
 
 func runProxy(t *testing.T, backendUrl string, proxyUrl chan<- string, proxyDone chan<- struct{}, errCh chan<- error) {

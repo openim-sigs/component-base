@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/selection"
+	"openim.cc/component-base/pkg/selection"
 )
 
 // Selector represents a field selector.

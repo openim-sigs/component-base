@@ -7,7 +7,7 @@ package internal
 import (
 	"fmt"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 )
 

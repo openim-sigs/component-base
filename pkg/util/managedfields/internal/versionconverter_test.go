@@ -12,10 +12,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
 	"k8s.io/kube-openapi/pkg/validation/spec"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 )
 

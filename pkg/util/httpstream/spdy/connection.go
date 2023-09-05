@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/moby/spdystream"
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
 	"k8s.io/klog/v2"
+	"openim.cc/component-base/pkg/util/httpstream"
 )
 
 // connection maintains state about a spdystream.Connection and its associated

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
 )
 
 // FullChannelBehavior controls how the Broadcaster reacts if a watcher's watch

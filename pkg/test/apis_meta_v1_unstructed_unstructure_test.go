@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	apitesting "github.com/openim-sigs/component-base/pkg/api/apitesting"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/apis/testapigroup"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/types"
+	apitesting "openim.cc/component-base/pkg/api/apitesting"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/apis/testapigroup"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/types"
 )
 
 func TestDecodeUnstructured(t *testing.T) {

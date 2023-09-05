@@ -5,7 +5,7 @@
 package conversion
 
 import (
-	"github.com/openim-sigs/component-base/third_party/forked/golang/reflect"
+	"openim.cc/component-base/third_party/forked/golang/reflect"
 )
 
 // The code for this type must be located in third_party, since it forks from

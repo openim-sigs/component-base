@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/openim-sigs/component-base/pkg/util/dump"
+	"openim.cc/component-base/pkg/util/dump"
 	"sigs.k8s.io/yaml"
 )
 

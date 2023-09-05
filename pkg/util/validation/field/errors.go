@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	utilerrors "github.com/openim-sigs/component-base/pkg/util/errors"
-	"github.com/openim-sigs/component-base/pkg/util/sets"
+	utilerrors "openim.cc/component-base/pkg/util/errors"
+	"openim.cc/component-base/pkg/util/sets"
 )
 
 // Error is an implementation of the 'error' interface, which represents a

@@ -10,12 +10,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"sigs.k8s.io/structured-merge-diff/v4/typed"
 
-	"github.com/openim-sigs/component-base/pkg/api/equality"
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	runtimeschema "github.com/openim-sigs/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/api/equality"
+	"openim.cc/component-base/pkg/api/meta"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime"
+	runtimeschema "openim.cc/component-base/pkg/runtime/schema"
 )
 
 func TestExtractInto(t *testing.T) {

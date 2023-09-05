@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
-	internaltesting "github.com/openim-sigs/component-base/pkg/util/managedfields/internal/testing"
+	"openim.cc/component-base/pkg/api/meta"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
+	internaltesting "openim.cc/component-base/pkg/util/managedfields/internal/testing"
 	"sigs.k8s.io/yaml"
 )
 

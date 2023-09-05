@@ -8,7 +8,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/openim-sigs/component-base/util/sets"
+	"openim.cc/component-base/util/sets"
 )
 
 // ciphers maps strings into tls package cipher constants in

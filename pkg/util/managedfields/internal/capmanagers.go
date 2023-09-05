@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sort"
 
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/runtime"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 )
 

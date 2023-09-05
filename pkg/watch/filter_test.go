@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/openim-sigs/component-base/pkg/watch"
+	. "openim.cc/component-base/pkg/watch"
 )
 
 func TestFilter(t *testing.T) {

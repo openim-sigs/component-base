@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openim-sigs/component-base/selection"
-	"github.com/openim-sigs/component-base/util/sets"
-	"github.com/openim-sigs/component-base/validation"
+	"openim.cc/component-base/selection"
+	"openim.cc/component-base/util/sets"
+	"openim.cc/component-base/validation"
 )
 
 // Requirements is AND of all requirements.

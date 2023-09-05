@@ -17,21 +17,21 @@ func TestGetNameFromCallsite(t *testing.T) {
 	}{
 		{
 			name:     "simple",
-			expected: "github.com/openim-sigs/component-base/pkg/util/naming/from_stack_test.go:",
+			expected: "openim.cc/component-base/pkg/util/naming/from_stack_test.go:",
 		},
 		{
 			name:            "ignore-package",
-			ignoredPackages: []string{"github.com/openim-sigs/component-base/pkg/util/naming"},
+			ignoredPackages: []string{"openim.cc/component-base/pkg/util/naming"},
 			expected:        "testing/testing.go:",
 		},
 		{
 			name:            "ignore-file",
-			ignoredPackages: []string{"github.com/openim-sigs/component-base/pkg/util/naming/from_stack_test.go"},
+			ignoredPackages: []string{"openim.cc/component-base/pkg/util/naming/from_stack_test.go"},
 			expected:        "testing/testing.go:",
 		},
 		{
 			name:            "ignore-multiple",
-			ignoredPackages: []string{"github.com/openim-sigs/component-base/pkg/util/naming/from_stack_test.go", "testing/testing.go"},
+			ignoredPackages: []string{"openim.cc/component-base/pkg/util/naming/from_stack_test.go", "testing/testing.go"},
 			expected:        "????",
 		},
 	}

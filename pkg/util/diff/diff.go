@@ -12,7 +12,7 @@ import (
 	"text/tabwriter"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/openim-sigs/component-base/pkg/util/dump"
+	"openim.cc/component-base/pkg/util/dump"
 )
 
 func legacyDiff(a, b interface{}) string {

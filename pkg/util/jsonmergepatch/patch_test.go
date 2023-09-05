@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	jsonpatch "github.com/evanphx/json-patch"
-	"github.com/openim-sigs/component-base/pkg/util/dump"
-	"github.com/openim-sigs/component-base/pkg/util/json"
+	"openim.cc/component-base/pkg/util/dump"
+	"openim.cc/component-base/pkg/util/json"
 	"sigs.k8s.io/yaml"
 )
 

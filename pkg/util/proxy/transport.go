@@ -19,9 +19,9 @@ import (
 	"golang.org/x/net/html/atom"
 	"k8s.io/klog/v2"
 
-	"github.com/openim-sigs/component-base/pkg/api/errors"
-	"github.com/openim-sigs/component-base/pkg/util/net"
-	"github.com/openim-sigs/component-base/pkg/util/sets"
+	"openim.cc/component-base/pkg/api/errors"
+	"openim.cc/component-base/pkg/util/net"
+	"openim.cc/component-base/pkg/util/sets"
 )
 
 // atomsToAttrs states which attributes of which tags require URL substitution.

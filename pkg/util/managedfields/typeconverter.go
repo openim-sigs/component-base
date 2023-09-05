@@ -5,8 +5,8 @@
 package managedfields
 
 import (
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
 	"k8s.io/kube-openapi/pkg/validation/spec"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
 )
 
 // TypeConverter allows you to convert from runtime.Object to

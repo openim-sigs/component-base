@@ -14,9 +14,9 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
 	"k8s.io/klog/v2"
+	"openim.cc/component-base/pkg/util/httpstream"
+	"openim.cc/component-base/pkg/util/runtime"
 )
 
 // The Websocket subprotocol "channel.k8s.io" prepends each binary message with a byte indicating

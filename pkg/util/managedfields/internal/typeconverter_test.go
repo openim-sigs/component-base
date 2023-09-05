@@ -14,9 +14,9 @@ import (
 	"sigs.k8s.io/structured-merge-diff/v4/typed"
 	"sigs.k8s.io/yaml"
 
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
 	"k8s.io/kube-openapi/pkg/validation/spec"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime/schema"
 )
 
 func TestTypeConverter(t *testing.T) {

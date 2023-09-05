@@ -7,7 +7,7 @@ package runtime
 import (
 	"fmt"
 
-	"github.com/openim-sigs/component-base/json"
+	"openim.cc/component-base/json"
 )
 
 // NegotiateError is returned when a ClientNegotiator is unable to locate

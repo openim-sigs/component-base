@@ -10,7 +10,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime"
 )
 
 // Interface can be implemented by anything that knows how to watch and report changes.

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openim-sigs/component-base/selection"
-	"github.com/openim-sigs/component-base/util/sets"
+	"openim.cc/component-base/selection"
+	"openim.cc/component-base/util/sets"
 )
 
 func TestSelectorParse(t *testing.T) {

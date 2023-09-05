@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/wait"
 	"golang.org/x/time/rate"
+	"openim.cc/component-base/pkg/util/wait"
 )
 
 func TestRateLimitedSafeWaitGroup(t *testing.T) {

@@ -7,10 +7,10 @@ package internal
 import (
 	"fmt"
 
-	"github.com/openim-sigs/component-base/pkg/api/errors"
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/api/errors"
+	"openim.cc/component-base/pkg/api/meta"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 	"sigs.k8s.io/structured-merge-diff/v4/merge"
 )

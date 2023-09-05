@@ -15,12 +15,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	apiequality "github.com/openim-sigs/component-base/pkg/api/equality"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	v1 "github.com/openim-sigs/component-base/pkg/apis/testapigroup/v1"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/runtime/serializer/protobuf"
+	apiequality "openim.cc/component-base/pkg/api/equality"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	v1 "openim.cc/component-base/pkg/apis/testapigroup/v1"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/runtime/serializer/protobuf"
 )
 
 type testObject struct {

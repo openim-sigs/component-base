@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package version provides utilities for version number comparisons
-package version // import "github.com/openim-sigs/component-base/pkg/util/version"
+package version // import "openim.cc/component-base/pkg/util/version"

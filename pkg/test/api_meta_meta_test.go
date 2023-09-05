@@ -9,14 +9,14 @@ import (
 	"testing"
 
 	fuzz "github.com/google/gofuzz"
-	"github.com/openim-sigs/component-base/pkg/api/meta"
-	metafuzzer "github.com/openim-sigs/component-base/pkg/apis/meta/fuzzer"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/apis/testapigroup"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/runtime/serializer"
-	"github.com/openim-sigs/component-base/pkg/types"
+	"openim.cc/component-base/pkg/api/meta"
+	metafuzzer "openim.cc/component-base/pkg/apis/meta/fuzzer"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/apis/testapigroup"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/runtime/serializer"
+	"openim.cc/component-base/pkg/types"
 )
 
 func TestAPIObjectMeta(t *testing.T) {

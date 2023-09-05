@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/conversion/queryparams"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/conversion/queryparams"
+	"openim.cc/component-base/pkg/runtime/schema"
 )
 
 type namedString string

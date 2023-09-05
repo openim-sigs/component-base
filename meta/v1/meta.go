@@ -7,7 +7,7 @@ package v1
 import (
 	"time"
 
-	"github.com/openim-sigs/component-base/scheme"
+	"openim.cc/component-base/scheme"
 )
 
 type ObjectMetaAccessor interface {

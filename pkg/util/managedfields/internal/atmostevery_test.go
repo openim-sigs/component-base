@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
 )
 
 func TestAtMostEvery(t *testing.T) {

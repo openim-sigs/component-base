@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openim-sigs/component-base/util/clock"
-	"github.com/openim-sigs/component-base/util/runtime"
+	"openim.cc/component-base/util/clock"
+	"openim.cc/component-base/util/runtime"
 )
 
 // For any test of the style:

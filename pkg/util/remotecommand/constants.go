@@ -7,7 +7,7 @@ package remotecommand
 import (
 	"time"
 
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
 )
 
 const (

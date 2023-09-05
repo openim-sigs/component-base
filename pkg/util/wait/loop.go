@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/openim-sigs/component-base/pkg/util/runtime"
+	"openim.cc/component-base/pkg/util/runtime"
 )
 
 // loopConditionUntilContext executes the provided condition at intervals defined by

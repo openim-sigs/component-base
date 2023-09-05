@@ -10,8 +10,8 @@ import (
 
 	"github.com/evanphx/json-patch"
 	jsonpatch "github.com/evanphx/json-patch"
-	"github.com/openim-sigs/component-base/pkg/util/json"
-	"github.com/openim-sigs/component-base/pkg/util/mergepatch"
+	"openim.cc/component-base/pkg/util/json"
+	"openim.cc/component-base/pkg/util/mergepatch"
 )
 
 // Create a 3-way merge patch based-on JSON merge patch.

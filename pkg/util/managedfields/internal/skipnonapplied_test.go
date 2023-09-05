@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	apierrors "github.com/openim-sigs/component-base/pkg/api/errors"
-	"github.com/openim-sigs/component-base/pkg/apis/meta/v1/unstructured"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
-	internaltesting "github.com/openim-sigs/component-base/pkg/util/managedfields/internal/testing"
+	apierrors "openim.cc/component-base/pkg/api/errors"
+	"openim.cc/component-base/pkg/apis/meta/v1/unstructured"
+	"openim.cc/component-base/pkg/runtime/schema"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
+	internaltesting "openim.cc/component-base/pkg/util/managedfields/internal/testing"
 	"sigs.k8s.io/yaml"
 )
 

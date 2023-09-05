@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/openim-sigs/component-base/pkg/util/managedfields/internal"
 	"k8s.io/kube-openapi/pkg/validation/spec"
+	"openim.cc/component-base/pkg/util/managedfields/internal"
 )
 
 var fakeTypeConverter = func() internal.TypeConverter {

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/openim-sigs/component-base/pkg/util/sets"
+	"openim.cc/component-base/pkg/util/sets"
 )
 
 // MessageCountMap contains occurrence for each error message.

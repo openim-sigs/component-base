@@ -9,4 +9,4 @@
 // but for the fields which did not change, copying is automated. This makes it
 // easy to modify the structures you use in memory without affecting the format
 // you store on disk or respond to in your external API calls.
-package conversion // import "github.com/openim-sigs/component-base/pkg/conversion"
+package conversion // import "openim.cc/component-base/pkg/conversion"

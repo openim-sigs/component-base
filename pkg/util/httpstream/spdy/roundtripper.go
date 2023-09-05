@@ -19,14 +19,14 @@ import (
 	"strings"
 	"time"
 
-	apierrors "github.com/openim-sigs/component-base/pkg/api/errors"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/serializer"
-	"github.com/openim-sigs/component-base/pkg/util/httpstream"
-	utilnet "github.com/openim-sigs/component-base/pkg/util/net"
 	"golang.org/x/net/proxy"
 	"k8s.io/apimachinery/third_party/forked/golang/netutil"
+	apierrors "openim.cc/component-base/pkg/api/errors"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/serializer"
+	"openim.cc/component-base/pkg/util/httpstream"
+	utilnet "openim.cc/component-base/pkg/util/net"
 )
 
 // SpdyRoundTripper knows how to upgrade an HTTP request to one that supports
@@ -109,7 +109,7 @@ func (s *SpdyRoundTripper) TLSClientConfig() *tls.Config {
 	return s.tlsConfig
 }
 
-// Dial implements github.com/openim-sigs/component-base/pkg/util/net.Dialer.
+// Dial implements openim.cc/component-base/pkg/util/net.Dialer.
 func (s *SpdyRoundTripper) Dial(req *http.Request) (net.Conn, error) {
 	conn, err := s.dial(req)
 	if err != nil {

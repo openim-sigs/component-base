@@ -11,10 +11,10 @@ import (
 
 	// TODO: Ideally we should create the necessary package structure in e.g.,
 	// pkg/conversion/test/... instead of importing pkg/api here.
-	apitesting "github.com/openim-sigs/component-base/pkg/api/apitesting"
-	metav1 "github.com/openim-sigs/component-base/pkg/apis/meta/v1"
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
+	apitesting "openim.cc/component-base/pkg/api/apitesting"
+	metav1 "openim.cc/component-base/pkg/apis/meta/v1"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
 )
 
 func TestV1EncodeDecodeStatus(t *testing.T) {

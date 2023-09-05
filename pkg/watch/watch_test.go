@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openim-sigs/component-base/pkg/runtime"
-	"github.com/openim-sigs/component-base/pkg/runtime/schema"
-	. "github.com/openim-sigs/component-base/pkg/watch"
+	"openim.cc/component-base/pkg/runtime"
+	"openim.cc/component-base/pkg/runtime/schema"
+	. "openim.cc/component-base/pkg/watch"
 )
 
 type testType string

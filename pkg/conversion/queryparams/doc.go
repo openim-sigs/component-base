@@ -4,4 +4,4 @@
 
 // Package queryparams provides conversion from versioned
 // runtime objects to URL query values
-package queryparams // import "github.com/openim-sigs/component-base/pkg/conversion/queryparams"
+package queryparams // import "openim.cc/component-base/pkg/conversion/queryparams"
