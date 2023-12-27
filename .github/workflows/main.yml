@@ -36,6 +36,11 @@ jobs:
     - name: Test
       run: go test -v ./...
 
+    - name: Run contributor-assistant/github-action
+      uses: contributor-assistant/github-action@v2.3.0
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Lock threads
       uses: dessant/lock-threads@v4
       with:
