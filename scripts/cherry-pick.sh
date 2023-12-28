@@ -73,7 +73,14 @@ if [[ "$#" -lt 2 ]]; then
 fi
 
 # Checks if you are logged in. Will error/bail if you are not.
+# Checks if you are logged in. Will error/bail if you are not.
 gh auth status
+
+# Checks if GitHub Actions credentials are present. Will error/bail if they are not.
+if [ -z "$GITHUB_TOKEN" ]; then
+  echo "Error: GitHub Actions credentials not found."
+  exit 1
+fi
 
 if git_status=$(git status --porcelain --untracked=no 2>/dev/null) && [[ -n "${git_status}" ]]; then
   openim::log::error_exit "!!! Dirty tree. Clean up and try again."
