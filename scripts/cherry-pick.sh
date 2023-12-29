@@ -72,8 +72,22 @@ if [[ "$#" -lt 2 ]]; then
   exit 2
 fi
 
+# Check for correct credentials and if logged in
+EXPECTED_CREDENTIALS='your_expected_credentials_placeholder'
+CURRENT_CREDENTIALS=$(gh auth status -t 2>&1 | grep 'Logged into')
+if [[ "$CURRENT_CREDENTIALS" != *"$EXPECTED_CREDENTIALS"* ]]; then
+  openim::log::error_exit "Incorrect credentials detected, please check your authentication."
+fi
+
 # Checks if you are logged in. Will error/bail if you are not.
-gh auth status
+if ! gh auth status &>/dev/null; then
+  openim::log::error_exit "User is not logged in or 'gh auth status' command failed. Please log in and try again."
+fi
+if ! if ! gh auth status &>/dev/null; then
+  openim::log::error_exit "'gh auth status' command failed. Please check your 'gh' configuration or re-authenticate."
+fi; then
+  openim::log::error_exit "GitHub CLI authentication failed. Please check your 'gh' configuration or re-authenticate."
+fi
 
 if git_status=$(git status --porcelain --untracked=no 2>/dev/null) && [[ -n "${git_status}" ]]; then
   openim::log::error_exit "!!! Dirty tree. Clean up and try again."
