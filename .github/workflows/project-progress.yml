@@ -33,4 +33,5 @@ jobs:
         with:
           project: openim-powerful
           column: In Progress
+          token: ${{ secrets.GITHUB_TOKEN }}
           repo-token: ${{ secrets.BOT_GITHUB_TOKEN }}
