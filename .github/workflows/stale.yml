@@ -34,6 +34,9 @@ jobs:
     steps:
     - uses: actions/stale@v8
       with:
+        # The BOT_GITHUB_TOKEN secret must hold a valid GitHub token with the required
+        # permissions for the actions/stale@v8 action to operate properly. If a workflow run
+        # fails with a "Bad credentials" error, ensure this secret is correctly configured.
         repo-token: ${{ secrets.BOT_GITHUB_TOKEN }}
         days-before-stale: 60
         days-before-close: 7
