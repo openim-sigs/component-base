@@ -1,0 +1,11 @@
+# Since the user has not provided the name of the workflow file, we cannot provide a specific solution. However, here is a general solution that can be applied to any workflow file.
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Translate Issues"
+        uses: usthe/issues-translate-action@v2.7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
