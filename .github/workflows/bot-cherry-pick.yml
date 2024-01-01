@@ -22,6 +22,11 @@ jobs:
     if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/cherry-pick') && github.event.comment.user.login=='kubbot'
     runs-on: ubuntu-latest
     steps:
+      - name: Check bot token validity
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /user
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
       - name: Checkout the latest code
         uses: actions/checkout@v3
         with:
