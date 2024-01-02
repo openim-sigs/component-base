@@ -1,0 +1,29 @@
+name: Main Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16
+
+    - name: Authenticate gh tool
+      run: gh auth login --with-token < ${{ secrets.GH_TOKEN }}
+      if: secrets.GH_TOKEN != ''
+
+    - name: Run cherry-pick.sh script
+      run: bash scripts/cherry-pick.sh
