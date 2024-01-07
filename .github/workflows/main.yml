@@ -1,0 +1,16 @@
+name: Lock and Limit threads
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  lock-threads:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Lock threads
+      uses: dessant/lock-threads@v4
+      with:
+        github-token: ${{ secrets.CORRECT_GITHUB_TOKEN }}
