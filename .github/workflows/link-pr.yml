@@ -21,6 +21,8 @@ on:
 
 jobs:
   linkChecker:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,7 +43,7 @@ jobs:
             # ./*.md all markdown files in the root directory
           args: --verbose  -E -i --no-progress --exclude-path './CHANGELOG' './**/*.md'
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Create Issue From File
         if: env.lychee_exit_code != 0
